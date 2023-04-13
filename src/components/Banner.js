@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function Banner() {
 
     return (
-        <Container fluid className="main-banner">
+        <Container fluid className="main-banner mt-3">
             <Container>
                 <Row>
                     <Col className="mb-5 main-banner-picture" xl={4}>
