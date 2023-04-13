@@ -32,7 +32,7 @@ export default function NavBar({ page }) {
             style={{ backgroundColor: "#f9e9dd", height: "91px" }}
             fixed="top"
         >
-            <Container>
+            <Container fluid>
                 <Navbar.Brand href="/" >
                     {
                         page === "resume" ?
