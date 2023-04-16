@@ -302,6 +302,10 @@ body {
         display: none;
     }
 
+    .project-card-desktop {
+        max-height: 225px;
+    }
+
     .resume-container {
         flex-direction: row-reverse;
     }
