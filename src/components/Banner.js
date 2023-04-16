@@ -3,12 +3,12 @@ import { Container, Row, Col } from 'react-bootstrap';
 export default function Banner() {
 
     return (
-        <Container fluid className="main-banner mt-3">
+        <Container fluid className="main-banner mt-5">
             <Container>
                 <Row>
                     <Col className="mb-5 main-banner-picture" xl={4}>
 
-                        <Container className="profile-picture " />
+                        <Container className="profile-picture" />
                     </Col>
                     <Col className="main-banner-text" xl={8} >
                         <h1 className='display-1 title typewriter'>

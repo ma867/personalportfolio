@@ -302,10 +302,16 @@ body {
         display: none;
     }
 
-
-
     .resume-container {
         flex-direction: row-reverse;
     }
 
+
+    .main-banner {
+
+        .profile-picture {
+            width: 300px;
+            height: 300px;
+        }
+    }
 }
