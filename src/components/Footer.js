@@ -1,6 +1,8 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedinIn, faGithubAlt } from '@fortawesome/free-brands-svg-icons'
+import { Link } from 'react-router-dom';
+
 export default function Footer() {
 
     return (
@@ -9,12 +11,12 @@ export default function Footer() {
 
                 <Col className="footer-socials" >
 
-                    <a>
+                    <Link to='https://github.com/ma867'>
                         <FontAwesomeIcon className="social-icon" icon={faGithubAlt} />
-                    </a>
-                    <a>
+                    </Link>
+                    <Link to='https://www.linkedin.com/in/ma867/'>
                         <FontAwesomeIcon className="social-icon" icon={faLinkedinIn} />
-                    </a>
+                    </Link>
 
                 </Col>
             </Row>

@@ -97,10 +97,10 @@ export default function NavBar({ page }) {
 
 
 
-                        <Nav.Link href="#home">
+                        <Nav.Link href="https://github.com/ma867">
                             <FontAwesomeIcon className="social-icon" icon={faGithubAlt} />
                         </Nav.Link>
-                        <Nav.Link href="#link">
+                        <Nav.Link href="https://www.linkedin.com/in/ma867/">
                             <FontAwesomeIcon className="social-icon" icon={faLinkedinIn} />
                         </Nav.Link>
 

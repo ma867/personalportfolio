@@ -34,6 +34,14 @@ export default function Main() {
                 ref={domRef}>
                 <h1 className='title mb-5 text-center'>Projects</h1>
                 <ProjectCard
+                    title="MyNvoice: Invoice Application"
+                    projectType="MERN STACK"
+                    description="This full-stack application allows users to have full CRUD abilities for making invoices, generating a PDF version, and send them to their customer."
+                    desktopLink="https://i.imgur.com/LJKgv3x.png"
+                    responsive=""
+                    projectLink="https://mynvoice.herokuapp.com/"
+                />
+                <ProjectCard
                     title="Youkbox: Music Application"
                     projectType="MERN STACK & SPOTIFY API"
                     description="This full-stack playlist-making application is my personal reiteration of streaming platforms like SoundCloud and the now defunct, 8track.
