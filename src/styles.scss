@@ -298,6 +298,25 @@ body {
 
 
 @media(max-width:490px) {
+
+
+    .social-icon {
+        padding: 12px;
+        border-radius: 50%;
+        font-size: 18px;
+        border: .5px solid #5F1A37;
+        background-color: #5F1A37;
+        color: #f9e9dd;
+
+        &:hover {
+            border: .5px solid #5F1A37;
+            background-color: #f9e9dd;
+            color: #5F1A37
+        }
+    }
+
+
+
     .project-card-mobile {
         display: none;
     }
