@@ -11,11 +11,11 @@ export default function Footer() {
 
                 <Col className="footer-socials" >
 
-                    <Link to='https://github.com/ma867'>
-                        <FontAwesomeIcon className="social-icon" icon={faGithubAlt} />
+                    <Link to='https://github.com/ma867' className="social-icon">
+                        <FontAwesomeIcon icon={faGithubAlt} />
                     </Link>
-                    <Link to='https://www.linkedin.com/in/ma867/'>
-                        <FontAwesomeIcon className="social-icon" icon={faLinkedinIn} />
+                    <Link to='https://www.linkedin.com/in/ma867/' className="social-icon">
+                        <FontAwesomeIcon icon={faLinkedinIn} />
                     </Link>
 
                 </Col>

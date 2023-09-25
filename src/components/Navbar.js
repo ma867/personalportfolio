@@ -32,7 +32,7 @@ export default function NavBar({ page }) {
             style={{ backgroundColor: "#f9e9dd", height: "91px" }}
             fixed="top"
         >
-            <Container fluid>
+            <Container fluid id="nav-contents">
                 <Navbar.Brand href="/" >
                     {
                         page === "resume" ?
@@ -65,7 +65,7 @@ export default function NavBar({ page }) {
                         {
                             page === "main" ?
                                 <Nav.Link href="#projects">
-                                    Projects
+                                    <span>Projects</span>
                                 </Nav.Link>
                                 :
                                 <Nav.Link href="/">
@@ -93,15 +93,15 @@ export default function NavBar({ page }) {
 
 
                     </Nav>
-                    <Nav className="ms-auto">
+                    <Nav className="ms-auto" id="social-container">
 
 
 
-                        <Nav.Link href="https://github.com/ma867">
-                            <FontAwesomeIcon className="social-icon" icon={faGithubAlt} />
+                        <Nav.Link href="https://github.com/ma867" className="social-icon" >
+                            <FontAwesomeIcon icon={faGithubAlt} />
                         </Nav.Link>
-                        <Nav.Link href="https://www.linkedin.com/in/ma867/">
-                            <FontAwesomeIcon className="social-icon" icon={faLinkedinIn} />
+                        <Nav.Link href="https://www.linkedin.com/in/ma867/" className="social-icon" >
+                            <FontAwesomeIcon icon={faLinkedinIn} />
                         </Nav.Link>
 
                     </Nav>

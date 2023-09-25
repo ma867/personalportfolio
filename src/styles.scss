@@ -32,10 +32,42 @@ body {
 }
 
 .navbar-nav {
+
     background-color: #f9e9dd;
+    padding-left: 20px;
+    padding-right: 20px;
+
+
+
 }
 
-.resume-container {
+#nav-contents {
+    padding: 0px !important;
+
+    .navbar-toggler {
+        border: none;
+        color: none !important;
+
+        &:active,
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(78, 21, 45, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        }
+
+
+        &:hover {
+            color: none !important;
+        }
+
+    }
+}
+
+
+.navbar-light .resume-container {
 
     .resume-skills {}
 
@@ -246,12 +278,20 @@ body {
 
 
 .social-icon {
-    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     border-radius: 50%;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     font-size: 18px;
-    border: 2px solid #5F1A37;
+    border: 1px solid #5F1A37;
     background-color: #5F1A37;
     color: #f9e9dd;
+    margin: 5px;
+
+
 
     &:hover {
         border: 2px solid #5F1A37;
@@ -300,23 +340,6 @@ body {
 @media(max-width:490px) {
 
 
-    .social-icon {
-        margin: 12px;
-        border-radius: 50%;
-        font-size: 18px;
-        border: .5px solid #5F1A37;
-        background-color: #5F1A37;
-        color: #f9e9dd;
-
-        &:hover {
-            border: .5px solid #5F1A37;
-            background-color: #f9e9dd;
-            color: #5F1A37
-        }
-    }
-
-
-
     .project-card-mobile {
         display: none;
     }
@@ -337,6 +360,23 @@ body {
             height: 300px;
         }
     }
+
+    .navbar {
+        .nav-link {
+            display: flex;
+            flex-direction: column;
+
+            text-align: left;
+
+            .social-icon {
+                text-align: center;
+            }
+        }
+
+
+
+    }
+
 
     .contact-me-card {
         .contact-me-picture-container {
