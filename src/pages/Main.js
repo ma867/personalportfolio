@@ -60,6 +60,7 @@ export default function Main() {
                     responsive="true"
                     projectLink="https://shrt-y.herokuapp.com/"
                 />
+                {/*
                 <ProjectCard
                     title="Movio: Movie Reviews Site "
                     projectType="MERN STACK"
@@ -67,7 +68,9 @@ export default function Main() {
                     desktopLink="https://i.imgur.com/3m6Sqo5.png"
                     responsive=""
                     projectLink="https://movio.herokuapp.com/"
+                    style={{ display: "none", visibility: "hidden" }}
                 />
+            */}
             </Container>
 
             <ContactMeForm isVisible={isVisible} domRef={domRef} />
