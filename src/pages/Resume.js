@@ -30,7 +30,7 @@ export default function Resume() {
                     <h3 className="title pb-3">Skills</h3>
                     <h5 className="title" >Programming</h5>
                     <ul>
-
+                        <li>C#</li>
                         <li>Python</li>
                         <li>JavaScript</li>
                         <li>PHP</li>
@@ -106,12 +106,27 @@ export default function Resume() {
                                 <h5 className="title" >May 2021 – Present</h5>
                             </div>
 
-                            <h6 className='pb-3'> JR. SOFTWARE ENGINEER</h6>
+                            <h6 className='pb-3'>SOFTWARE ENGINEER</h6>
 
                             <ul>
-                                <li>Improved and fixed defects on the portal used by agents to create and manipulate policies using Duck Creek Suite, an in-house software that uses XML, SOAP, and SQL.</li>
-                                <li>Developed features to enhance the process of policy renewals, which helped increase the percentage for Straight Through Processing (STP) for policies from 60% to 72%.</li>
-                                <li>Received the Technology Associate Program Award at the Chubb Global Technology Awards.</li>
+                                <li>
+                                    Designed solutions using C#, .NET Core, and SQL to optimize the existing codebase and improve straight-through processing of endorsements in the Marketplace platform.
+                                </li>
+                                <li>
+                                    Maintained agent portal stability by troubleshooting issues and deploying fixes in lower environments and production for the endorsements team and other small commercial teams.
+                                </li>
+                                <li>
+                                    Ensured high code quality by following SOLID principles, writing unit tests using Moq and xUnit, and reviewing pull requests to maintain best practices within the endorsements team.
+                                </li>
+                                <li>
+                                    Documented new solution workflows to provide a standardized knowledge base for other Marketplace teams.
+                                </li>
+                                <li>
+                                    Improved and fixed coverage bugs for a portal used by underwriters to create and manipulate policies using in-house software built with XML, SOAP, and SQL.
+                                </li>
+                                <li>
+                                    Aided in interviewing incoming technical talent, resulting in three hires for the Technical Associate Program.
+                                </li>
                             </ul>
                         </Col>
 
